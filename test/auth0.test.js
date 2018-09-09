@@ -1,3 +1,4 @@
+require('dotenv').config()
 var Funcmatic = require('@funcmatic/funcmatic')
 var Auth0Plugin = require('../lib/auth0')
 
