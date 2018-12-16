@@ -1,6 +1,6 @@
 {
   "name": "@funcmatic/auth0-plugin",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Auth0 JWT Authentication Plugin for the Funcmatic Lambda JS Framework",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,8 @@
   "dependencies": {
     "@funcmatic/simple-redis": "^1.0.0-alpha",
     "auth0": "^2.10.0",
-    "dotenv": "^6.0.0"
+    "dotenv": "^6.0.0",
+    "jwt-decode": "^2.2.0"
   },
   "devDependencies": {
     "@funcmatic/funcmatic": "^2.3.0",
